@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background: #fffae1b8;
+}
+
+@font-face {
+    font-family: 'freeHand';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../src/assets/fonts/Freehand-Regular.ttf') format('truetype');
+}

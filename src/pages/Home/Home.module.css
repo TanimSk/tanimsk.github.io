@@ -1,0 +1,11 @@
+.corner_img {
+    height: 24rem;
+    width: 20.6rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    background-image: url('../../assets/art.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}

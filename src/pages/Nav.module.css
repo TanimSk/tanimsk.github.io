@@ -1,0 +1,60 @@
+.container {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: transparent;
+    overflow: hidden;
+    margin: 5rem;
+
+    z-index: 10;
+    position: relative;
+
+    box-shadow: 8px 15px 24px rgba(78, 78, 78, 0.5);
+}
+
+.segment {
+    z-index: 0;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+
+    width: 200px;
+    height: 200px;
+    transform-origin: 0 0;
+
+    /* border */
+    border: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 8px;
+
+    background-color: rgb(198, 217, 216);
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.segment:hover {
+    transition: all 0.1s;
+    background-color: rgba(189, 189, 189, 0.671);
+    cursor: pointer;
+}
+
+.my_img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+
+    border: solid;
+    border-radius: 50%;
+    border-width: 3px;
+    border-color: white;
+
+    background-color: white;
+    right: 50px;
+    bottom: 50px;
+
+    background-image: url('./../assets/img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
