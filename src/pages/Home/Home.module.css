@@ -1,3 +1,39 @@
+.container {
+    width: 1000px;
+    margin: 16vh auto 0 auto;
+    height: auto;
+}
+
+.about_article {
+    float: right;
+    text-align: left;
+    width: 550px;
+}
+
+
+.heading_text {
+    font-family: 'FreeHand';
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.body_text {
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: 400;
+    margin: 1rem 0 0 0;
+    color: rgb(34, 34, 34);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body_text a {
+    color: rgb(131, 131, 131);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
 .corner_img {
     height: 24rem;
     width: 20.6rem;

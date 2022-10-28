@@ -4,12 +4,11 @@
     border-radius: 50%;
     background-color: transparent;
     overflow: hidden;
-    margin: 5rem;
 
     z-index: 10;
     position: relative;
-
     box-shadow: 8px 15px 24px rgba(78, 78, 78, 0.5);
+    float: left;
 }
 
 .segment {

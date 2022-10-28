@@ -1,7 +1,8 @@
-import { useEffect } from "react";
-import { GetFirestoreData } from "../../firebaseFuncs/firebaseFuncs";
+// import { useEffect } from "react";
+// import { GetFirestoreData } from "../../firebaseFuncs/firebaseFuncs";
 import Navigator from "../Navigator";
 import styles from './Home.module.css';
+import TypewriterComponent from "typewriter-effect";
 
 export default function Home() {
     // useEffect(() => {
@@ -13,10 +14,37 @@ export default function Home() {
     // }, []);
 
     return (
-        <>
+        <div className={styles.container}>
             <Navigator></Navigator>
+
+            <article className={styles.about_article}>
+                <h1 className={styles.heading_text}>
+                    <TypewriterComponent
+                        options={{
+                            loop: false,
+                            delay: 80
+                        }}
+                        onInit={(typewriter) => {
+                            typewriter
+                                .typeString('Hi ')
+                                .pauseFor(800)
+                                .typeString('Meet With <strong style="color: #ff6161">Tanim Sk</strong>')
+                                .start();
+                        }}
+                    />
+                </h1>
+                <p className={styles.body_text}>
+                    Hi, I am a passionate programmer with knowledge of Python, JavaScript, HTML, CSS, and C++ and 3+ years of experience.
+                    I've done so many projects (check my <a href="https://github.com/TanimSk/" target="_blank">GitHub</a>) with Python GUI
+                    (Kivy, Tkinter, PywebView), Backend (Django, Flask), ReactJS, Opencv, Microcontrollers, and Godot Game Engine.
+                    I like making new software, and websites, exploring technologies and messing around with microcontrollers.
+                    <br />
+                    In my free time, I like to watch movies, hear music, make hobby projects, and sleep.
+                </p>
+            </article>
+
             <div className={styles.corner_img}></div>
-        </>
+        </div>
 
 
     );

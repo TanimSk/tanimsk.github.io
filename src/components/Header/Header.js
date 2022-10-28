@@ -5,10 +5,11 @@ export default function Header() {
         <header className={styles.header}>
             <nav className={styles.nav}>
                 <a href="#">Tanim Sk</a>
-                <a href="#">About</a>
-                <a href="#">My Skills</a>
-                <a href="#">Certificates</a>
+
                 <a href="#">Contact</a>
+                <a href="#">Certificates</a>
+                <a href="#">My Skills</a>
+                <a href="#">Projects</a>
             </nav>
         </header>
     );

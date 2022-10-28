@@ -4,7 +4,7 @@ import Home from './pages/Home/Home';
 function App() {
   return (
     <>
-      <Header></Header>
+      {/* <Header></Header> */}
       <Home></Home>
     </>
 

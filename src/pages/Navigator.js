@@ -14,15 +14,14 @@ export default function Navigator() {
             const angle = 360 / totalSeg;
 
             for (let i = 1; i <= totalSeg; i++) {
-                segment.push(<div className={styles.segment} style={{
-                    transform: `rotate(${angle * i}deg) skewX(${90 - angle}deg)`,
-                    // backgroundColor: `#${Math.floor(Math.random() * 16777215).toString(16)}`
-                }}>
+                segment.push(<div className={styles.segment} key={i}
+                    style={{
+                        transform: `rotate(${angle * i}deg) skewX(${90 - angle}deg)`,
+                        // backgroundColor: `#${Math.floor(Math.random() * 16777215).toString(16)}`
+                    }}>
                 </div>);
             }
-
             setSegments(segment);
-
         }, []
     );
 
