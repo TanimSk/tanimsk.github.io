@@ -1,15 +1,28 @@
 import styles from './style.module.css';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     return (
         <header className={styles.header}>
             <nav className={styles.nav}>
-                <a href="#">Tanim Sk</a>
+                <span>
+                    <Link to='/'>Tanim Sk</Link>
+                </span>
 
-                <a href="#">Contact</a>
-                <a href="#">Certificates</a>
-                <a href="#">My Skills</a>
-                <a href="#">Projects</a>
+
+                <span>
+                    <Link to='/'>Contact</Link>
+                </span>
+
+                <span>
+                    <Link to='/'>Certificates</Link>
+                </span>
+                <span>
+                    <Link to='/'>My Skills</Link>
+                </span>
+                <span>
+                    <Link to='/'>Projects</Link>
+                </span>
             </nav>
         </header>
     );

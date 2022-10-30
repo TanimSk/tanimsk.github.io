@@ -6,7 +6,8 @@ export default function Navigator() {
     const rootContainer = useRef(null);
     let [segments, setSegments] = useState([]);
 
-    let totalSeg = 4;
+    const totalSeg = 4;
+    const segmentNames = ['My Skills'];
 
     useEffect(
         () => {
@@ -14,12 +15,14 @@ export default function Navigator() {
             const angle = 360 / totalSeg;
 
             for (let i = 1; i <= totalSeg; i++) {
-                segment.push(<div className={styles.segment} key={i}
-                    style={{
-                        transform: `rotate(${angle * i}deg) skewX(${90 - angle}deg)`,
-                        // backgroundColor: `#${Math.floor(Math.random() * 16777215).toString(16)}`
-                    }}>
-                </div>);
+                segment.push(
+                    <div className={styles.segment} key={i}
+                        style={{ transform: `rotate(${angle * i}deg) skewX(${90 - angle}deg)` }}>
+                        {/* <div>
+                            {segmentNames[i - 1]}
+                        </div> */}
+                    </div>
+                );
             }
             setSegments(segment);
         }, []
@@ -29,9 +32,7 @@ export default function Navigator() {
     return (
         <div className={styles.container} ref={rootContainer}>
             {segments}
-            <div className={styles.my_img}>
-
-            </div>
+            <div className={styles.my_img} />
         </div>
     );
 }

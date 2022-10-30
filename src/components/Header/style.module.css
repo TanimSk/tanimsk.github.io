@@ -13,12 +13,12 @@
     position: relative;
 }
 
-.nav a {
+.nav span a {
     color: rgb(36, 36, 36);
     text-decoration: none;
 }
 
-.nav a:first-child {
+.nav span:first-child {
     float: left;
     font-family: 'freeHand';
 
@@ -28,8 +28,13 @@
     margin-left: 1rem;
 }
 
-.nav a:not(:first-child) {
+.nav span:not(:first-child) {
     float: right;
     margin-right: 1.3rem;
     font-size: 1.6rem;
+}
+
+.nav span:not(:first-child):hover {
+    color: gray;
+    font-weight: bold;
 }

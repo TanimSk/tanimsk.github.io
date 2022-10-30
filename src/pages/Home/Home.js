@@ -1,6 +1,6 @@
 // import { useEffect } from "react";
 // import { GetFirestoreData } from "../../firebaseFuncs/firebaseFuncs";
-import Navigator from "../Navigator";
+import Navigator from "../../components/Navigator";
 import styles from './Home.module.css';
 import TypewriterComponent from "typewriter-effect";
 
