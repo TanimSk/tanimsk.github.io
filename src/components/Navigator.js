@@ -1,38 +1,127 @@
-import { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import styles from './Nav.module.css';
+import CircleType from 'circletype';
+import { Link } from 'react-router-dom';
 
-export default function Navigator() {
+export default class Navigator extends React.Component {
 
-    const rootContainer = useRef(null);
-    let [segments, setSegments] = useState([]);
+    constructor() {
+        super();
+        this.state = {
+            segment: ""
+        }
 
-    const totalSeg = 4;
-    const segmentNames = ['My Skills'];
+        // refs
+        this.skills = React.createRef();
+        this.projects = React.createRef();
+        this.contact = React.createRef();
+        this.cert = React.createRef();
+    }
 
-    useEffect(
-        () => {
-            let segment = [];
-            const angle = 360 / totalSeg;
+    componentDidMount() {
+        const totalSeg = 4;
+        const angle = 360 / totalSeg;
+        const segmentTxtRef = [this.contact, this.skills, this.projects, this.cert];
 
-            for (let i = 1; i <= totalSeg; i++) {
-                segment.push(
-                    <div className={styles.segment} key={i}
+        const links = ['contact', 'skills', 'projects', 'certificates'];
+        let segment = [];
+
+        for (let i = 1; i <= totalSeg; i++) {
+            segment.push(
+                <Link to={links[i - 1]}>
+                    <div className={styles.segment} key={i.toString()}
                         style={{ transform: `rotate(${angle * i}deg) skewX(${90 - angle}deg)` }}>
-                        {/* <div>
-                            {segmentNames[i - 1]}
-                        </div> */}
                     </div>
-                );
-            }
-            setSegments(segment);
-        }, []
-    );
+                </Link>
+            );
 
+            new CircleType(segmentTxtRef[i - 1].current).radius(150);
+            segmentTxtRef[i - 1].current.style.transform = `rotate(${135 + (angle * i)}deg)`;
+        }
 
-    return (
-        <div className={styles.container} ref={rootContainer}>
-            {segments}
-            <div className={styles.my_img} />
-        </div>
-    );
+        this.setState({
+            segment: segment
+        });
+
+    }
+
+    render() {
+        return (
+            <>
+                <div className={styles.container}>
+                    {this.state.segment}
+                    <div className={styles.my_img} />
+
+                    <div className={styles.segment_texts} ref={this.skills}>
+                        My Skills
+                    </div>
+
+                    <div className={styles.segment_texts} ref={this.cert}>
+                        Certificates
+                    </div>
+
+                    <div className={styles.segment_texts} ref={this.projects}>
+                        Projects
+                    </div>
+
+                    <div className={styles.segment_texts} ref={this.contact}>
+                        Contact
+                    </div>
+
+                </div>
+            </>
+        );
+    }
 }
+
+// export default function Navigator() {
+
+//     const rootContainer = useRef(null);
+//     let [segments, setSegments] = useState([]);
+
+//     const totalSeg = 4;
+//     const segmentNames = ['My Skills'];
+
+//     // refs
+//     const skills = useRef('');
+//     const projects = useRef('');
+//     const contact = useRef('');
+//     const cert = useRef('');
+
+//     const curved = new CircleType();
+
+//     useEffect(
+//         () => {
+//             let segment = [];
+//             const angle = 360 / totalSeg;
+
+//             for (let i = 1; i <= totalSeg; i++) {
+//                 segment.push(
+//                     <>
+//                         <div className={styles.segment} key={i}
+//                             style={{ transform: `rotate(${angle * i}deg) skewX(${90 - angle}deg)` }}>
+//                         </div>
+//                         <div>
+//                             {segmentNames[0]}
+//                         </div>
+//                     </>
+//                 );
+//             }
+//             setSegments(segment);
+
+//             // curved text
+
+//         }, []
+//     );
+
+
+//     return (
+//         <div className={styles.container} ref={rootContainer}>
+//             {segments}
+//             <div ref={skills}>
+//                 Skills
+//             </div>
+//             {/* <div className={styles.my_img} /> */}
+//         </div>
+//     );
+// }
