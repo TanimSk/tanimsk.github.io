@@ -1,0 +1,64 @@
+.container{
+    margin: 5rem auto 0 auto;
+    width: 1000px;
+    height: auto;
+}
+
+/* cards */
+
+.card_root{
+    width: 30rem;
+    height: 4rem;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 12px rgba(78, 78, 78, .2);
+    cursor: pointer;
+    border: 1px solid rgb(148, 148, 148);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: rgb(39, 39, 39);
+}
+
+.card_root:hover{
+    transition: all 0.1s;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-color: rgb(77, 77, 77);
+}
+
+.card_icon, .text_after_icon, .text_right{
+    padding-top: 1.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card_icon{
+    float: left;
+    padding-top: 1rem !important;
+    font-size: 2rem !important;
+}
+.text_after_icon{
+    float: left;
+}
+.text_right{
+    float: right;
+}
+
+/* Technologies */
+.tech_container{
+    width: 8rem;
+    height: 9rem;
+}
+.tech_img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.tech_name{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    display: block;
+}
