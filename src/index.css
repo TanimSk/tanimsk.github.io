@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: cursive;
+    font-family: 'Caviar';
     background: #fffae1b8;
 }
 
@@ -10,4 +10,17 @@ body {
     font-style: normal;
     font-weight: normal;
     src: url('../src/assets/fonts/Freehand-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Caviar';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../src/assets/fonts/Comfortaa-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Caviar';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../src/assets/fonts/Comfortaa-Bold.ttf') format('truetype');
 }

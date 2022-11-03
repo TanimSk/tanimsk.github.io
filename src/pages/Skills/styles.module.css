@@ -2,6 +2,27 @@
     margin: 5rem auto 0 auto;
     width: 1000px;
     height: auto;
+    text-align: center;
+}
+
+.container_lang{
+    width: 450px;
+    text-align: center;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.container_tech{
+    width: 450px;
+    text-align: center;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.container_use{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 /* cards */
@@ -12,8 +33,8 @@
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 8px 12px rgba(78, 78, 78, .2);
-    cursor: pointer;
-    border: 1px solid rgb(148, 148, 148);
+    /* cursor: pointer; */
+    border: 1px solid transparent;
 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -24,7 +45,7 @@
 .card_root:hover{
     transition: all 0.1s;
     background-color: rgba(255, 255, 255, 0.486);
-    border-color: rgb(77, 77, 77);
+    border-color: rgba(77, 77, 77, 0.6);
 }
 
 .card_icon, .text_after_icon, .text_right{
@@ -46,9 +67,12 @@
 }
 
 /* Technologies */
+
 .tech_container{
     width: 8rem;
     height: 9rem;
+    padding: .8rem;
+    display: inline-block;
 }
 .tech_img{
     width: 100%;

@@ -40,11 +40,13 @@
 
 .segment_texts {
     position: absolute;
-    height: 195px;
+    height: 194px;
     width: 400px;
     transform-origin: bottom;
-    font-size: 2rem;
+    font-size: 1.5rem;
     pointer-events: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
 }
 
 .my_img {

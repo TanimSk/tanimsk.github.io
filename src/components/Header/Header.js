@@ -18,7 +18,7 @@ export default function Header() {
                     <Link to='/'>Certificates</Link>
                 </span>
                 <span>
-                    <Link to='/'>My Skills</Link>
+                    <Link to='/skills'>My Skills</Link>
                 </span>
                 <span>
                     <Link to='/'>Projects</Link>
