@@ -42,43 +42,44 @@ const Techs = (props) => {
 
 export default function Skills() {
     return (
-        <div className={styles.container}>
+        <>
+            <div className={styles.container}>
 
-            <div className={styles.container_lang}>
-                <h1 style={{color: 'gray'}}>
-                    Languages
-                </h1>
+                <div className={styles.container_lang}>
+                    <h1 style={{ color: 'gray' }}>
+                        Languages
+                    </h1>
 
-                <Langs icon={<FaPython />} name="Python" comment="Intermediate" />
-                <br />
-                <Langs icon={<SiJavascript />} name="JavaScript" comment="Intermediate" />
-                <br />
-                <Langs icon={<SiCplusplus />} name="C++" comment="Basic" />
-                <br />
-                <Langs icon={<SiHtml5 />} name="HTML5 & CSS3" comment="Intermediate" />
-                <br />
+                    <Langs icon={<FaPython />} name="Python" comment="Intermediate" />
+                    <br />
+                    <Langs icon={<SiJavascript />} name="JavaScript" comment="Intermediate" />
+                    <br />
+                    <Langs icon={<SiCplusplus />} name="C++" comment="Basic" />
+                    <br />
+                    <Langs icon={<SiHtml5 />} name="HTML5 & CSS3" comment="Intermediate" />
+                    <br />
+                </div>
+
+                <div className={styles.container_tech}>
+                    <h1 style={{ color: 'gray' }}>
+                        Technologies
+                    </h1>
+                    <Techs image={django} name='Django' />
+                    <Techs image={react} name='React' />
+                    <Techs image={flask} name='Flask' />
+                    <Techs image={opencv} name='OpenCV' />
+                </div>
+
+                <div className={styles.container_use}>
+                    <h1 style={{ color: 'gray' }}>
+                        Things I use
+                    </h1>
+                    <Techs image={github} name='' />
+                    <Techs image={ubuntu} name='' />
+                    <Techs image={git} name='' />
+                    <Techs image={vscode} name='' />
+                </div>
             </div>
-
-            <div className={styles.container_tech}>
-                <h1 style={{color: 'gray'}}>
-                    Technologies
-                </h1>
-                <Techs image={django} name='Django' />
-                <Techs image={react} name='React' />
-                <Techs image={flask} name='Flask' />
-                <Techs image={opencv} name='OpenCV' />
-            </div>
-
-            <div className={styles.container_use}>
-                <h1 style={{color: 'gray'}}>
-                    Things I use
-                </h1>
-                <Techs image={github} name='' />
-                <Techs image={ubuntu} name='' />
-                <Techs image={git} name='' />                
-                <Techs image={vscode} name='' />
-            </div>
-
-        </div>
+        </>
     );
 }

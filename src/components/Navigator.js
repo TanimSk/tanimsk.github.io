@@ -28,8 +28,8 @@ export default class Navigator extends React.Component {
 
         for (let i = 1; i <= totalSeg; i++) {
             segment.push(
-                <Link to={links[i - 1]}>
-                    <div className={styles.segment} key={i.toString()}
+                <Link to={links[i - 1]} key={i.toString()}>
+                    <div className={styles.segment}
                         style={{ transform: `rotate(${angle * i}deg) skewX(${90 - angle}deg)` }}>
                     </div>
                 </Link>

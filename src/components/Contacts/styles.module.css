@@ -1,0 +1,21 @@
+.container {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin: 2rem auto 2rem auto;
+    width: 100%;
+}
+
+.container span {
+    padding: .5rem;
+}
+
+.container a {
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.container a:hover {
+    transition: all 0.15s;
+    color: black;
+}

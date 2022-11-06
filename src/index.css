@@ -20,7 +20,7 @@ body {
 }
 @font-face {
     font-family: 'Caviar';
-    font-style: normal;
+    font-style: bold;
     font-weight: bold;
     src: url('../src/assets/fonts/Comfortaa-Bold.ttf') format('truetype');
 }

@@ -1,27 +1,31 @@
 import styles from './style.module.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
+
     return (
         <header className={styles.header}>
             <nav className={styles.nav}>
                 <span>
-                    <Link to='/'>Tanim Sk</Link>
-                </span>
-
-
-                <span>
-                    <Link to='/'>Contact</Link>
+                    <NavLink to='/'>Tanim Sk</NavLink>
                 </span>
 
                 <span>
-                    <Link to='/'>Certificates</Link>
+                    <NavLink className={({ isActive }) => (isActive ? styles.activeLink : 'inactive')}
+                        to='/contact'>Contact</NavLink>
+                </span>
+
+                <span>
+                    <NavLink className={({ isActive }) => (isActive ? styles.activeLink : 'inactive')}
+                        to='/certificates'>Certificates</NavLink>
                 </span>
                 <span>
-                    <Link to='/skills'>My Skills</Link>
+                    <NavLink className={({ isActive }) => (isActive ? styles.activeLink : 'inactive')}
+                        to='/skills'>My Skills</NavLink>
                 </span>
                 <span>
-                    <Link to='/'>Projects</Link>
+                    <NavLink className={({ isActive }) => (isActive ? styles.activeLink : 'inactive')}
+                        to='/projects'>Projects</NavLink>
                 </span>
             </nav>
         </header>
