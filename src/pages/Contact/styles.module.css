@@ -1,0 +1,78 @@
+.container {
+    width: 1000px;
+    margin: 5rem auto 0 auto;
+}
+
+.container h2{
+    color: rgb(39, 39, 39);
+    text-align: center;
+}
+
+/* Separator */
+.separator{
+    width: 28rem;
+    text-align: center;
+    margin: 2rem auto;
+}
+.separator hr{
+    width: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.container form {
+    text-align: center;
+}
+
+/* Textarea */
+.container form textarea {
+    outline: none;
+    width: 500px;
+    height: 8rem;
+    padding: .8rem;
+    margin-top: 1rem;
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: .6rem;
+    resize: vertical;
+    background-color: #fff4e0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    transition: background-color .5s, border-radius .1s;
+}
+
+.container form textarea:focus {
+    transition: background-color .5s, border-radius .1s;
+    border-radius: 1rem;
+    background-color: #fceac8;
+}
+
+.container form textarea::placeholder {
+    font-family: 'Caviar';
+    font-size: 1rem;
+}
+
+/* Button */
+.container form input {
+    margin: 1rem;
+    padding: .5rem .8rem .5rem .8rem;
+    border-radius: .5rem;
+    font-family: 'Caviar';
+    font-size: 1rem;
+    font-weight: bold;
+    min-width: 6rem;
+    background-color: #ff7a7a;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: min-width 0.1s;
+}
+
+.container form input:hover {
+    transition: min-width 0.1s;
+    background-color: #ff5c5c;
+    min-width: 6.5rem;
+}

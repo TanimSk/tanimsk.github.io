@@ -3,7 +3,7 @@ import { SiDiscord } from 'react-icons/si';
 import { MdEmail } from 'react-icons/md';
 import styles from './styles.module.css';
 
-export default function Contact() {
+export default function Contacts() {
     return (
         <div className={styles.container}>
             <span>

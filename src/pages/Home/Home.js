@@ -3,7 +3,7 @@
 import Navigator from "../../components/Navigator";
 import styles from './Home.module.css';
 import TypewriterComponent from "typewriter-effect";
-import Contact from "../../components/Contacts/Contacts";
+import Contacts from "../../components/Contacts/Contacts";
 
 export default function Home() {
     // useEffect(() => {
@@ -45,7 +45,7 @@ export default function Home() {
                 </article>
                 <div className={styles.corner_img}></div>
             </div>
-            <Contact />
+            <Contacts />
         </>
     );
 } 
