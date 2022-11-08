@@ -76,3 +76,7 @@
     background-color: #ff5c5c;
     min-width: 6.5rem;
 }
+
+.container form input:disabled {
+    cursor: not-allowed;
+}

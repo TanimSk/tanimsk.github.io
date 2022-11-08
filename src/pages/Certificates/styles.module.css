@@ -1,0 +1,26 @@
+.container {
+    margin: 5rem auto 0 auto;
+    width: 700px;
+    text-align: center;
+}
+
+.card {
+    height: 11rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    display: inline-block;
+    margin: 1rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.1s;
+}
+
+.card:hover {
+    transition: box-shadow 0.2s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+    /* padding: .8rem; */
+    max-height: 100%;
+}
