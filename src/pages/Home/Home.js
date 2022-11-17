@@ -43,9 +43,11 @@ export default function Home() {
                         In my free time, I like to watch movies, hear music, make hobby projects, and sleep.
                     </p>
                 </article>
-                <div className={styles.corner_img}></div>
+                <div className={styles.contacts}>
+                    <Contacts />
+                </div>
             </div>
-            <Contacts />
+            <div className={styles.corner_img}></div>
         </>
     );
 } 

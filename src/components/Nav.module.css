@@ -1,6 +1,6 @@
 .container {
-    width: 400px;
-    height: 400px;
+    width: 25rem;
+    height: 25rem;
     border-radius: 50%;
     background-color: transparent;
     overflow: hidden;
@@ -9,6 +9,14 @@
     position: relative;
     box-shadow: 8px 15px 24px rgba(78, 78, 78, 0.5);
     float: left;
+    margin: 2rem;
+}
+
+@media only screen and (max-width: 1288px) {
+    .container {
+        float: none;
+        margin: auto;
+    }
 }
 
 .segment {

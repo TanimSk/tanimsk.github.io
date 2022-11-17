@@ -1,20 +1,25 @@
 .container {
-    width: 1000px;
+    width: 80%;
+    max-width: 1300px;
+    min-width: 350px;
     margin: 5rem auto 0 auto;
 }
 
-.container h2{
+.container h2 {
     color: rgb(39, 39, 39);
     text-align: center;
 }
 
 /* Separator */
-.separator{
-    width: 28rem;
+.separator {
+    width: 80%;
+    max-width: 28rem;
+    min-width: 10rem;
     text-align: center;
     margin: 2rem auto;
 }
-.separator hr{
+
+.separator hr {
     width: 10rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -27,8 +32,10 @@
 
 /* Textarea */
 .container form textarea {
+    width: 80%;
+    max-width: 550px;
+    min-width: 250px;
     outline: none;
-    width: 500px;
     height: 8rem;
     padding: .8rem;
     margin-top: 1rem;

@@ -1,0 +1,22 @@
+.container {
+    height: 100%;
+    background-color: rgb(238, 238, 238);
+}
+
+.container a{
+    display: block;
+    cursor: pointer;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.container a {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+    font-weight: bold;
+}
+
+.container a:hover,
+.container a:focus {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}

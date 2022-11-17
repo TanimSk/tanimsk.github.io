@@ -1,7 +1,8 @@
 import styles from './style.module.css';
 import { NavLink } from 'react-router-dom';
+import { HiBars3 } from 'react-icons/hi2';
 
-export default function Header() {
+export default function Header({sideBarState}) {
 
     return (
         <header className={styles.header}>
@@ -27,7 +28,15 @@ export default function Header() {
                     <NavLink className={({ isActive }) => (isActive ? styles.activeLink : 'inactive')}
                         to='/projects'>Projects</NavLink>
                 </span>
+                <span>
+                    <div onClick={()=>{
+                        sideBarState(true)
+                    }}>
+                        <HiBars3 />
+                    </div>
+                </span>
             </nav>
         </header>
+
     );
 }

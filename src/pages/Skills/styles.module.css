@@ -1,26 +1,29 @@
-.container{
+.container {
     margin: 5rem auto 0 auto;
-    width: 80%;
-    max-width: 1000px;
+    width: 75%;
+    min-width: 350px;
+    max-width: 65rem;
     height: auto;
     text-align: center;
 }
 
-.container_lang{
-    width: 450px;
+.container_lang {
+    width: 75%;
+    max-width: 32rem;
+    min-width: 26rem;
     text-align: center;
     display: inline-block;
     padding: 1rem;
 }
 
-.container_tech{
-    width: 450px;
+.container_tech {
+    width: 24.3rem;
     text-align: center;
     display: inline-block;
     padding: 1rem;
 }
 
-.container_use{
+.container_use {
     width: 100%;
     text-align: center;
     margin-top: 2rem;
@@ -28,8 +31,8 @@
 
 /* cards */
 
-.card_root{
-    width: 30rem;
+.card_root {
+    width: 100%;
     height: 4rem;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
@@ -43,43 +46,49 @@
     color: rgb(39, 39, 39);
 }
 
-.card_root:hover{
+.card_root:hover {
     transition: all 0.1s;
     background-color: rgba(255, 255, 255, 0.486);
     border-color: rgba(77, 77, 77, 0.6);
 }
 
-.card_icon, .text_after_icon, .text_right{
+.card_icon,
+.text_after_icon,
+.text_right {
     padding-top: 1.4rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.card_icon{
+.card_icon {
     float: left;
     padding-top: 1rem !important;
     font-size: 2rem !important;
 }
-.text_after_icon{
+
+.text_after_icon {
     float: left;
 }
-.text_right{
+
+.text_right {
     float: right;
 }
 
 /* Technologies */
 
-.tech_container{
+.tech_container {
     width: 8rem;
     height: 9rem;
     padding: .8rem;
     display: inline-block;
 }
-.tech_img{
+
+.tech_img {
     width: 100%;
     border-radius: 1rem;
 }
-.tech_name{
+
+.tech_name {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;

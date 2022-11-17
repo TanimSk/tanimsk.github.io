@@ -1,13 +1,26 @@
 .container {
-    width: 1000px;
-    margin: 16vh auto 0 auto;
-    height: auto;
+    width: 75%;
+    /* min-width: 350px; */
+    max-width: 65rem;
+    margin: auto;
+
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    position: absolute;
+    left: 0;
+    right: 0;
+
 }
 
 .about_article {
     float: right;
     text-align: left;
-    width: 550px;
+    width: 39vw;
+    max-width: 34rem;
 }
 
 
@@ -37,6 +50,7 @@
 .corner_img {
     height: 24rem;
     width: 20.6rem;
+    z-index: -1;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -44,4 +58,20 @@
     background-image: url('../../assets/art.png');
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 1288px) {
+    .contacts div {
+        padding-top: 2rem;
+    }
+
+    .about_article {
+        float: none;
+        margin: auto;
+        text-align: justify;
+        width: 80%;
+    }
 }
