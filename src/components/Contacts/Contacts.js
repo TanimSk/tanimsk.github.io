@@ -17,7 +17,7 @@ export default function Contacts() {
                 </a>
             </span>
             <span>
-                <a href="https://www.linkedin.com/in/tanim-sk-04b9931b3/" target="_blank">
+                <a href="https://discordapp.com/users/761207175376666684" target="_blank">
                     <SiDiscord />
                 </a>
             </span>

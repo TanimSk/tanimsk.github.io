@@ -64,14 +64,31 @@
 /* Responsive */
 
 @media only screen and (max-width: 1288px) {
+    .container {
+        margin-top: 2rem;
+        top: unset;
+        transform: unset;
+        -ms-transform: unset;
+        -moz-transform: unset;
+        -webkit-transform: unset;
+        -o-transform: unset;
+        position: relative;
+        left: unset;
+        right: unset;
+    }
+
     .contacts div {
         padding-top: 2rem;
     }
 
     .about_article {
         float: none;
-        margin: auto;
+        margin: 2rem auto 0 auto;
         text-align: justify;
-        width: 80%;
+        width: 100%;
+    }
+
+    .corner_img{
+        display: none;
     }
 }

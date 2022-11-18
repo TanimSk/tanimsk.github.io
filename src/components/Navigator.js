@@ -16,6 +16,9 @@ export default class Navigator extends React.Component {
         this.projects = React.createRef();
         this.contact = React.createRef();
         this.cert = React.createRef();
+
+        this.curveTextTrace = [];
+        this.isMobile = (window.screen.width < 500);
     }
 
     componentDidMount() {
@@ -34,8 +37,9 @@ export default class Navigator extends React.Component {
                     </div>
                 </Link>
             );
-
-            new CircleType(segmentTxtRef[i - 1].current).radius(150);
+            let circle = new CircleType(segmentTxtRef[i - 1].current);
+            // circle.radius(150);
+            this.curveTextTrace.push(circle);
             segmentTxtRef[i - 1].current.style.transform = `rotate(${135 + (angle * i)}deg)`;
         }
 
@@ -43,6 +47,24 @@ export default class Navigator extends React.Component {
             segment: segment
         });
 
+        this.changeCurve();
+        window.addEventListener("resize", this.changeCurve);
+    }
+
+    changeCurve = () => {
+        if (window.screen.width < 500 && this.isMobile) {
+            this.curveTextTrace.map((element) => {
+                element.radius(90);
+            });
+            this.isMobile = false;
+        }
+
+        if (window.screen.width > 500 && !this.isMobile) {
+            this.curveTextTrace.map((element) => {
+                element.radius(150);
+            });
+            this.isMobile = true;
+        }
     }
 
     render() {

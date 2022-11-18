@@ -25,7 +25,7 @@ export default function Certificates() {
         <div className={styles.container}>
             {
                 arr.map((src, index) =>
-                    <Cards img_src={src} link={links[index]} />
+                    <Cards img_src={src} link={links[index]} key={index}/>
                 )
             }
         </div>

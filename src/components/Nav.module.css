@@ -12,21 +12,14 @@
     margin: 2rem;
 }
 
-@media only screen and (max-width: 1288px) {
-    .container {
-        float: none;
-        margin: auto;
-    }
-}
-
 .segment {
     z-index: 0;
     position: absolute;
-    left: 200px;
-    top: 200px;
+    left: 12.5rem;
+    top: 12.5rem;
 
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
     transform-origin: 0 0;
 
     /* border */
@@ -48,8 +41,8 @@
 
 .segment_texts {
     position: absolute;
-    height: 194px;
-    width: 400px;
+    height: 12rem;
+    width: 25rem;
     transform-origin: bottom;
     font-size: 1.5rem;
     pointer-events: none;
@@ -58,8 +51,8 @@
 }
 
 .my_img {
-    width: 300px;
-    height: 300px;
+    width: 18.5rem;
+    height: 18.5rem;
     position: absolute;
 
     border: solid;
@@ -75,4 +68,35 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1288px) {
+    .container {
+        float: none;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        width: 17rem;
+        height: 17rem;
+        z-index: 0;
+    }
+    .my_img{
+        width: 10.5rem;
+        height: 10.5rem;
+    }
+    .segment{
+        left: 8.5rem;
+        top: 8.5rem;
+        width: 8.5rem;
+        height: 8.5rem;
+    }
+    .segment_texts{
+         height: 8.2rem;
+         width: 17rem;
+         font-size: 1.2rem;
+    }
 }

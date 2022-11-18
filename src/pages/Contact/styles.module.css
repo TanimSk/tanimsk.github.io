@@ -14,13 +14,13 @@
 .separator {
     width: 80%;
     max-width: 28rem;
-    min-width: 10rem;
     text-align: center;
     margin: 2rem auto;
 }
 
 .separator hr {
-    width: 10rem;
+    width: 21vw;
+    max-width: 11rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
