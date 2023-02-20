@@ -12,6 +12,7 @@ import ubuntu from '../../assets/ubuntu.png';
 import github from '../../assets/github.jpg';
 import git from '../../assets/git.png';
 import vscode from '../../assets/vscode.png';
+import devops from '../../assets/devops.png';
 
 const Langs = (props) => {
     return (
@@ -76,8 +77,10 @@ export default function Skills() {
                     </h1>
                     <Techs image={github} name='' />
                     <Techs image={ubuntu} name='' />
+                    <Techs image={devops} name='' />
                     <Techs image={git} name='' />
                     <Techs image={vscode} name='' />
+                    
                 </div>
             </div>
         </>

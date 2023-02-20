@@ -1,4 +1,7 @@
 import styles from './styles.module.css';
+import sololearn from '../../assets/sololearn.png';
+import hackerrank from '../../assets/hackerrank.jpg';
+import phitron from '../../assets/phitron.png';
 
 const Cards = (props) => {
     return (
@@ -11,20 +14,22 @@ const Cards = (props) => {
 }
 
 export default function Certificates() {
-    const arr = [
-        'https://www.sololearn.com/Certificate/CT-INIRVBAV/png',
-        'https://firebasestorage.googleapis.com/v0/b/my-porfolio-4ae5e.appspot.com/o/hackerrank.jpg?alt=media&token=fe52fc58-c434-4990-9c04-091e860be997'
+    const imgLink = [
+        sololearn,
+        hackerrank,
+        phitron
     ];
 
     const links = [
         'https://www.sololearn.com/Certificate/CT-INIRVBAV/png',
-        'https://www.sololearn.com/Certificate/CT-INIRVBAV/png'
+        'https://www.hackerrank.com/certificates/9c1f25f4a6ea',
+        phitron
     ];
 
     return (
         <div className={styles.container}>
             {
-                arr.map((src, index) =>
+                imgLink.map((src, index) =>
                     <Cards img_src={src} link={links[index]} key={index}/>
                 )
             }
