@@ -17,5 +17,6 @@ jobs:
         with:
           node-version: '18.16.0'
       - run: |
+          mkdir docs
           npm ci
           npm run build
