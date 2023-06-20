@@ -20,3 +20,10 @@ jobs:
           mkdir docs
           npm ci
           npm run build
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "sktanim5800@gmail.com"
+          git config --local user.name "tanimsk"
+          git add .
+          git commit -m "Update docs folder"
+          git push
