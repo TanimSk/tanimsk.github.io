@@ -1,5 +1,8 @@
 name: build portfolio
 
+env:
+  CI: false
+
 on:
   push:
     branches:
