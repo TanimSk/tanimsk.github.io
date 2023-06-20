@@ -35,7 +35,7 @@ export default function Home() {
                         />
                     </h1>
                     <p className={styles.body_text}>
-                        Hi, I am a passionate programmer with knowledge of Python, JavaScript, HTML, CSS, and C++ and 3+ years of experience.
+                        Hi, I am a passionate programmer with knowledge of Python, JavaScript, HTML, CSS, and C++ and 4+ years of experience.
                         I've done so many projects (check my <a href="https://github.com/TanimSk/" target="_blank">GitHub</a>) with Python GUI
                         (Kivy, Tkinter, PywebView), Backend (Django, Flask), ReactJS, Opencv, Microcontrollers, and Godot Game Engine.
                         I like making new software, and websites, exploring technologies and messing around with microcontrollers.
