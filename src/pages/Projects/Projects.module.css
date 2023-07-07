@@ -1,0 +1,36 @@
+.card {
+    height: 11rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    display: inline-block;
+    margin: 1rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    -webkit-transition: box-shadow 0.1s ease, height 0.1s ease, margin 0.2s;
+    -moz-transition: box-shadow 0.1s ease, height 0.1s ease, margin 0.2s;
+    -o-transition: box-shadow 0.1s ease, height 0.1s ease, margin 0.2s;
+    transition: box-shadow 0.1s ease, height 0.1s ease, margin 0.2s;
+}
+
+.card:hover {
+    -webkit-transition: box-shadow 0.2s, height 0.2s, margin 0.2s;
+    -moz-transition: box-shadow 0.2s, height 0.2s, margin 0.2s;
+    -o-transition: box-shadow 0.2s, height 0.2s, margin 0.2s;
+    transition: box-shadow 0.2s, height 0.2s, margin 0.2s;
+    height: 11.5rem;
+    margin: .5rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+    /* padding: .8rem; */
+    max-height: 100%;
+}
+
+.container {
+    margin: 5rem auto 0 auto;
+    width: 75%;
+    max-width: 65rem;
+    text-align: center;
+}
