@@ -30,7 +30,8 @@
 
 .container {
     margin: 5rem auto 0 auto;
-    width: 75%;
+    width: 76%;
     max-width: 65rem;
     text-align: center;
+    min-width: 20rem;
 }
