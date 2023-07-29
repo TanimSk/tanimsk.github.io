@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a86d7c0f.css",
-    "main.js": "/static/js/main.029d55aa.js",
+    "main.js": "/static/js/main.38860774.js",
     "static/media/phitron.png": "/static/media/phitron.35caf0e51c3ae8c715f6.png",
     "static/media/p2a.png": "/static/media/p2a.b88bd36c6c8381b5e496.png",
     "static/media/rterminal.png": "/static/media/rterminal.321e2c97cd5aa0a9de3c.png",
@@ -12,6 +12,7 @@
     "static/media/Comfortaa-Light.ttf": "/static/media/Comfortaa-Light.3aa1a958b3fc7c3318c7.ttf",
     "static/media/Comfortaa-Bold.ttf": "/static/media/Comfortaa-Bold.c6eb380b9f8f0920f934.ttf",
     "static/media/img.jpg": "/static/media/img.f2f0da6d5c66074ed5c5.jpg",
+    "static/media/dj_react.png": "/static/media/dj_react.f228b11fc5a626186953.png",
     "static/media/flask.jpg": "/static/media/flask.53904e6474432ce13fa3.jpg",
     "static/media/ubuntu.png": "/static/media/ubuntu.75ff3c419540f670d40e.png",
     "static/media/vscode.png": "/static/media/vscode.c16521850e55e1d6a5b9.png",
@@ -23,10 +24,10 @@
     "static/media/git.png": "/static/media/git.76302f2e4aa232cfaeec.png",
     "index.html": "/index.html",
     "main.a86d7c0f.css.map": "/static/css/main.a86d7c0f.css.map",
-    "main.029d55aa.js.map": "/static/js/main.029d55aa.js.map"
+    "main.38860774.js.map": "/static/js/main.38860774.js.map"
   },
   "entrypoints": [
     "static/css/main.a86d7c0f.css",
-    "static/js/main.029d55aa.js"
+    "static/js/main.38860774.js"
   ]
 }
