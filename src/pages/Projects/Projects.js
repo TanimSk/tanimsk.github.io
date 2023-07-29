@@ -1,6 +1,7 @@
 import styles from "./Projects.module.css";
 import rterminal from '../../assets/rterminal.png';
 import p2a from '../../assets/p2a.png';
+import djr from '../../assets/dj_react.png'
 
 const Cards = (props) => {
     return (
@@ -16,12 +17,14 @@ const Cards = (props) => {
 export default function Projects() {
     const imgLink = [
         rterminal,
-        p2a
+        p2a,
+        djr
     ];
 
     const links = [
         "https://github.com/TanimSk/Remote-Terminal",
-        "https://github.com/TanimSk/poseToAnimation"
+        "https://github.com/TanimSk/poseToAnimation",
+        "https://github.com/TanimSk/django-react-ecommerce/tree/django_drf"
     ];
 
     return (
