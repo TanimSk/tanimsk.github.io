@@ -1,31 +1,27 @@
 .card {
     height: 11rem;
+    width: 17rem;
     overflow: hidden;
     border-radius: 1rem;
     display: inline-block;
     margin: 1rem;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 
-    -webkit-transition: box-shadow 0.1s ease, height 0.1s ease, margin 0.2s;
-    -moz-transition: box-shadow 0.1s ease, height 0.1s ease, margin 0.2s;
-    -o-transition: box-shadow 0.1s ease, height 0.1s ease, margin 0.2s;
-    transition: box-shadow 0.1s ease, height 0.1s ease, margin 0.2s;
+    -webkit-transition: box-shadow 0.1s ease, background-size .25s;
+    -moz-transition: box-shadow 0.1s ease, background-size .25s;
+    -o-transition: box-shadow 0.1s ease, background-size .25s;
+    transition: box-shadow 0.1s ease, background-size .25s ;    
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
 }
 
 .card:hover {
-    -webkit-transition: box-shadow 0.2s, height 0.2s, margin 0.2s;
-    -moz-transition: box-shadow 0.2s, height 0.2s, margin 0.2s;
-    -o-transition: box-shadow 0.2s, height 0.2s, margin 0.2s;
-    transition: box-shadow 0.2s, height 0.2s, margin 0.2s;
-    height: 11.5rem;
-    margin: .5rem;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.card img {
-    /* padding: .8rem; */
-    max-height: 100%;
+    background-size: auto 110%;
 }
 
 .container {

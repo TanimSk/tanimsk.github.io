@@ -4,6 +4,7 @@ import Navigator from "../../components/Navigator";
 import styles from './Home.module.css';
 import TypewriterComponent from "typewriter-effect";
 import Contacts from "../../components/Contacts/Contacts";
+import { Link } from "react-router-dom";
 
 export default function Home() {
     // useEffect(() => {
@@ -42,6 +43,20 @@ export default function Home() {
                         <br />
                         In my free time, I like to watch movies, hear music, make hobby projects, and sleep.
                     </p>
+
+
+                    <div className={styles.link_container}>
+                        <Link to="/my-life" className={styles.life_updates}>
+                            Blogs
+                        </Link>
+                        <span>
+                            |
+                        </span>
+                        <Link to="/my-life" className={styles.life_updates}>
+                            My Life
+                        </Link>
+                    </div>
+
                 </article>
                 <div className={styles.contacts}>
                     <Contacts />

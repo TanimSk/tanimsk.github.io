@@ -44,6 +44,10 @@ function App() {
             <Certificates />
           </>} />
 
+          <Route path='/my-life' element={<>
+            {/* <Certificates /> */}
+          </>} />
+
         </Routes>
       </HashRouter>
 

@@ -47,6 +47,27 @@
 }
 
 
+.link_container {
+    display: flex;
+    flex-direction: row;
+    gap: .65rem;
+    color: rgb(165, 93, 44);
+    margin-top: 5rem;
+    width: 100%;
+    font-size: .85rem;
+    margin-left: .2rem;
+}
+
+.link_container a {
+    display: block;
+    color: rgb(165, 93, 44);
+}
+
+.link_container span {
+    display: block;
+}
+
+
 .corner_img {
     height: 24rem;
     width: 20.6rem;
@@ -88,7 +109,7 @@
         width: 100%;
     }
 
-    .corner_img{
+    .corner_img {
         display: none;
     }
 }

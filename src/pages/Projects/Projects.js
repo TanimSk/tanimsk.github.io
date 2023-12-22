@@ -5,10 +5,13 @@ import djr from '../../assets/dj_react.png'
 
 const Cards = (props) => {
     return (
-        <div className={styles.card}>
-            <a href={props.link} target='_blank'>
-                <img src={props.img_src} alt="Certificate" />
-            </a>
+        <div className={styles.card} style={{
+            backgroundImage: `url(${props.img_src})`
+        }}
+            onClick={() => {
+                window.open(props.link, '_blank').focus();
+            }}
+        >
         </div>
     );
 }
@@ -31,7 +34,7 @@ export default function Projects() {
         <div className={styles.container}>
             {
                 imgLink.map((src, index) =>
-                    <Cards img_src={src} link={links[index]} key={index}/>
+                    <Cards img_src={src} link={links[index]} key={index} />
                 )
             }
         </div>
