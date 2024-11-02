@@ -46,15 +46,15 @@ export default function Home() {
 
 
                     <div className={styles.link_container}>
-                        <Link to="/my-life" className={styles.life_updates}>
-                            Blogs
-                        </Link>
-                        <span>
+                        <a target="_blank" href="https://iris-snow-e2b.notion.site/My-Scrapbook-1329cd96cb4080389ba8eac62e59c264" className={styles.life_updates}>
+                            My Scrapbook
+                        </a>
+                        {/* <span>
                             |
                         </span>
                         <Link to="/my-life" className={styles.life_updates}>
                             My Life
-                        </Link>
+                        </Link> */}
                     </div>
 
                 </article>
