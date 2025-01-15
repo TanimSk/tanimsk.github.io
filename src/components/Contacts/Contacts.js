@@ -1,6 +1,7 @@
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { SiDiscord } from 'react-icons/si';
 import { MdEmail } from 'react-icons/md';
+import { FaYoutube } from "react-icons/fa6";
 import styles from './styles.module.css';
 
 export default function Contacts() {
@@ -12,7 +13,7 @@ export default function Contacts() {
                 </a>
             </span>
             <span>
-                <a href="https://www.linkedin.com/in/tanim-sk-04b9931b3/" target="_blank">
+                <a href="linkedin.com/in/md-saleh-sadiq-tanim-04b9931b3/" target="_blank">
                     <BsLinkedin />
                 </a>
             </span>
@@ -21,6 +22,13 @@ export default function Contacts() {
                     <SiDiscord />
                 </a>
             </span>
+        
+            <span>
+                <a href="https://youtube.com/@tanimsk" target="_blank">
+                    <FaYoutube />
+                </a>
+            </span>
+
             <span>
                 <a href="mailto:sktanim5800@gmail.com" target="_blank">
                     <MdEmail />
