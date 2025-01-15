@@ -1,7 +1,7 @@
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { SiDiscord } from 'react-icons/si';
 import { MdEmail } from 'react-icons/md';
-import { FaYoutube } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
 import styles from './styles.module.css';
 
 export default function Contacts() {
