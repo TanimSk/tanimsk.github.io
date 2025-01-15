@@ -1,5 +1,3 @@
-// import { useEffect } from "react";
-// import { GetFirestoreData } from "../../firebaseFuncs/firebaseFuncs";
 import Navigator from "../../components/Navigator";
 import styles from './Home.module.css';
 import TypewriterComponent from "typewriter-effect";
@@ -7,14 +5,6 @@ import Contacts from "../../components/Contacts/Contacts";
 import { Link } from "react-router-dom";
 
 export default function Home() {
-    // useEffect(() => {
-    //     GetFirestoreData('portfolio', 'profile_img').then(
-    //         (items) => {
-    //             console.log(items);
-    //         }
-    //     );
-    // }, []);
-
     return (
         <>
             <div className={styles.container}>
