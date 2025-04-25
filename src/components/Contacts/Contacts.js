@@ -13,7 +13,7 @@ export default function Contacts() {
                 </a>
             </span>
             <span>
-                <a href="linkedin.com/in/md-saleh-sadiq-tanim-04b9931b3/" target="_blank">
+                <a href="https://linkedin.com/in/md-saleh-sadiq-tanim-04b9931b3/" target="_blank">
                     <BsLinkedin />
                 </a>
             </span>
