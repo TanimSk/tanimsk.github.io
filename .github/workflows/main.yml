@@ -13,15 +13,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-node@v3
         with:
           node-version: '18.16.0'
+          cache: 'npm'   # <-- This line caches npm!
+
       - run: |
           mkdir -p docs
           npm ci
           npm run build
           rm -rf ./node_modules
-          echo \"www.tanimsk.me\" > dist/CNAME
+          echo "www.tanimsk.me" > docs/CNAME
+
       - name: Commit and push changes
         run: |
           git config --local user.email ${{ secrets.USR_EMAIL }}
