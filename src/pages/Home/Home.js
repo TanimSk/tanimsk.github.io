@@ -20,7 +20,7 @@ export default function Home() {
                                 typewriter
                                     .typeString('Hi ')
                                     .pauseFor(800)
-                                    .typeString('Meet With <strong style="color: #ff6161">Tanim Sk</strong>')
+                                    .typeString('Meet <strong style="color: #ff6161">Tanim Sk</strong>')
                                     .start();
                             }}
                         />
