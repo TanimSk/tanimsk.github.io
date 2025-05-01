@@ -26,12 +26,9 @@ export default function Home() {
                         />
                     </h1>
                     <p className={styles.body_text}>
-                        Hi, I am a passionate programmer with knowledge of Python, JavaScript, HTML, CSS, and C++ and 4+ years of experience.
-                        I've done so many projects (check my <a href="https://github.com/TanimSk/" target="_blank">GitHub</a>) with Python GUI
-                        (Kivy, Tkinter, PywebView), Backend (Django, Flask), ReactJS, Opencv, Microcontrollers, and Godot Game Engine.
-                        I like making new software, and websites, exploring technologies and messing around with microcontrollers.
-                        <br />
-                        In my free time, I like to watch movies, hear music, make hobby projects, and sleep.
+                        A programmer with knowledge of Python, JavaScript, HTML, CSS, and C++ and 5+ years of experience.  For web, I use Django (mainly), Flask, FastAPI for the backend, ReactJS for frontend, Postgres for database, and Redis for caching. I have deployed many webapps in AWS vps and equivalent platforms with CI/CD integration. <br/>
+                        Also, I have experience on working with raspberry pi, microcontrollers like esp32, esp8266, arduino. I have done home automation projects, websocket programming, communication via radio frequency, integration of tinyML for tiny AI projects etc. <br/>
+                        Currently I am learning LLM, SAM and AI agents.
                     </p>
 
 
