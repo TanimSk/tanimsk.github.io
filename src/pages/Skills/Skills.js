@@ -5,10 +5,11 @@ import { SiJavascript, SiCplusplus, SiHtml5 } from 'react-icons/si';
 // images
 import django from '../../assets/django.png';
 import react from '../../assets/react.png';
-import flask from '../../assets/flask.jpg';
+import langgraph from '../../assets/langgraph.png';
 import opencv from '../../assets/opencv.png';
 
 import ubuntu from '../../assets/ubuntu.png';
+import aws from '../../assets/aws.png';
 import github from '../../assets/github.jpg';
 import git from '../../assets/git.png';
 import vscode from '../../assets/vscode.png';
@@ -66,8 +67,8 @@ export default function Skills() {
                         Technologies
                     </h1>
                     <Techs image={django} name='Django' />
-                    <Techs image={react} name='React' />
-                    <Techs image={flask} name='Flask' />
+                    <Techs image={react} name='React' />                    
+                    <Techs image={langgraph} name='LangGraph' />
                     <Techs image={opencv} name='OpenCV' />
                 </div>
 
@@ -80,6 +81,7 @@ export default function Skills() {
                     <Techs image={devops} name='' />
                     <Techs image={git} name='' />
                     <Techs image={vscode} name='' />
+                    <Techs image={aws} name='' />
                     
                 </div>
             </div>
