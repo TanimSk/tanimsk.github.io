@@ -18,14 +18,15 @@ export default function Certificates() {
     const imgLink = [
         sololearn,
         hackerrank,
-        phitron
+        phitron,
+        cuet,
     ];
 
     const links = [
         'https://www.sololearn.com/Certificate/CT-INIRVBAV/png',
         'https://www.hackerrank.com/certificates/9c1f25f4a6ea',
         phitron,
-        cuet
+        cuet,
     ];
 
     return (
