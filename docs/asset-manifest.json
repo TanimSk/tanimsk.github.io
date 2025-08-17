@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8cd276e3.css",
-    "main.js": "/static/js/main.7649f0c0.js",
+    "main.js": "/static/js/main.c2f621a5.js",
     "static/media/cuet-techathon.png": "/static/media/cuet-techathon.cd3d6b082135f1ccc7ad.png",
     "static/media/phitron.png": "/static/media/phitron.35caf0e51c3ae8c715f6.png",
     "static/media/p2a.png": "/static/media/p2a.b88bd36c6c8381b5e496.png",
@@ -26,10 +26,10 @@
     "static/media/git.png": "/static/media/git.76302f2e4aa232cfaeec.png",
     "index.html": "/index.html",
     "main.8cd276e3.css.map": "/static/css/main.8cd276e3.css.map",
-    "main.7649f0c0.js.map": "/static/js/main.7649f0c0.js.map"
+    "main.c2f621a5.js.map": "/static/js/main.c2f621a5.js.map"
   },
   "entrypoints": [
     "static/css/main.8cd276e3.css",
-    "static/js/main.7649f0c0.js"
+    "static/js/main.c2f621a5.js"
   ]
 }
