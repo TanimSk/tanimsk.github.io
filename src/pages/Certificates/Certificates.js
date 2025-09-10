@@ -3,6 +3,7 @@ import sololearn from '../../assets/sololearn.png';
 import hackerrank from '../../assets/hackerrank.jpg';
 import phitron from '../../assets/phitron.png';
 import cuet from '../../assets/cuet-techathon.png';
+import wro from '../../assets/wro.png';
 
 const Cards = (props) => {
     return (
@@ -18,6 +19,7 @@ export default function Certificates() {
     const imgLink = [
         sololearn,
         hackerrank,
+        wro,
         phitron,
         cuet,
     ];
@@ -25,6 +27,7 @@ export default function Certificates() {
     const links = [
         'https://www.sololearn.com/Certificate/CT-INIRVBAV/png',
         'https://www.hackerrank.com/certificates/9c1f25f4a6ea',
+        wro,
         phitron,
         cuet,
     ];
