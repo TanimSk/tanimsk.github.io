@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8cd276e3.css",
-    "main.js": "/static/js/main.ba59e3df.js",
+    "main.css": "/static/css/main.1430c139.css",
+    "main.js": "/static/js/main.30e2d1b1.js",
     "static/media/cuet-techathon.png": "/static/media/cuet-techathon.cd3d6b082135f1ccc7ad.png",
     "static/media/wro.png": "/static/media/wro.f1d8d4e1d7cdbd18c208.png",
     "static/media/phitron.png": "/static/media/phitron.35caf0e51c3ae8c715f6.png",
@@ -12,6 +12,7 @@
     "static/media/Freehand-Regular.ttf": "/static/media/Freehand-Regular.7f8f0eadd6e1dca7d4ab.ttf",
     "static/media/sololearn.png": "/static/media/sololearn.db9ff42136214f959477.png",
     "static/media/hackerrank.jpg": "/static/media/hackerrank.6cf9e55d91b43c6a65d6.jpg",
+    "static/media/tanim-cv.pdf": "/static/media/tanim-cv.edb0d4407db8deb43796.pdf",
     "static/media/Comfortaa-Light.ttf": "/static/media/Comfortaa-Light.3aa1a958b3fc7c3318c7.ttf",
     "static/media/Comfortaa-Bold.ttf": "/static/media/Comfortaa-Bold.c6eb380b9f8f0920f934.ttf",
     "static/media/dj_react.png": "/static/media/dj_react.f228b11fc5a626186953.png",
@@ -26,11 +27,11 @@
     "static/media/devops.png": "/static/media/devops.e839e90af01a465369ac.png",
     "static/media/git.png": "/static/media/git.76302f2e4aa232cfaeec.png",
     "index.html": "/index.html",
-    "main.8cd276e3.css.map": "/static/css/main.8cd276e3.css.map",
-    "main.ba59e3df.js.map": "/static/js/main.ba59e3df.js.map"
+    "main.1430c139.css.map": "/static/css/main.1430c139.css.map",
+    "main.30e2d1b1.js.map": "/static/js/main.30e2d1b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cd276e3.css",
-    "static/js/main.ba59e3df.js"
+    "static/css/main.1430c139.css",
+    "static/js/main.30e2d1b1.js"
   ]
 }
