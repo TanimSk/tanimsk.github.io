@@ -3,6 +3,8 @@ import styles from './Home.module.css';
 import TypewriterComponent from "typewriter-effect";
 import Contacts from "../../components/Contacts/Contacts";
 import { Link } from "react-router-dom";
+import Button from "../../components/Button/Button";
+import resume from '../../assets/tanim-cv.pdf';
 
 export default function Home() {
     return (
@@ -26,8 +28,8 @@ export default function Home() {
                         />
                     </h1>
                     <p className={styles.body_text}>
-                        A programmer with knowledge of Python, JavaScript, HTML, CSS, and C++ and 5+ years of experience.  For web, I use Django (mainly), Flask, FastAPI for the backend, ReactJS for frontend, Postgres for database, and Redis for caching. I have deployed many webapps in AWS vps and equivalent platforms with CI/CD integration. <br/>
-                        Also, I have experience on working with raspberry pi, microcontrollers like esp32, esp8266, arduino. I have done home automation projects, websocket programming, communication via radio frequency, integration of tinyML for tiny AI projects etc. <br/>
+                        A programmer with knowledge of Python, JavaScript, HTML, CSS, and C++ and 5+ years of experience.  For web, I use Django (mainly), Flask, FastAPI for the backend, ReactJS for frontend, Postgres for database, and Redis for caching. I have deployed many webapps in AWS vps and equivalent platforms with CI/CD integration. <br />
+                        Also, I have experience on working with raspberry pi, microcontrollers like esp32, esp8266, arduino. I have done home automation projects, websocket programming, communication via radio frequency, integration of tinyML for tiny AI projects etc. <br />
                         Currently I am learning LLM, SAM and AI agents.
                     </p>
 
@@ -36,12 +38,7 @@ export default function Home() {
                         <a target="_blank" href="https://iris-snow-e2b.notion.site/My-Scrapbook-1329cd96cb4080389ba8eac62e59c264" className={styles.life_updates}>
                             My Scrapbook
                         </a>
-                        {/* <span>
-                            |
-                        </span>
-                        <Link to="/my-life" className={styles.life_updates}>
-                            My Life
-                        </Link> */}
+                        <Button onClick={() => window.open(resume, '_blank')} text="Resume" />
                     </div>
 
                 </article>
