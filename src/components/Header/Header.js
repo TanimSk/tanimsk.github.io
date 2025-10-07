@@ -18,7 +18,7 @@ export default function Header({sideBarState}) {
 
                 <span>
                     <NavLink className={({ isActive }) => (isActive ? styles.activeLink : 'inactive')}
-                        to='/certificates'>Certificates</NavLink>
+                        to='/certificates'>Achievements</NavLink>
                 </span>
                 <span>
                     <NavLink className={({ isActive }) => (isActive ? styles.activeLink : 'inactive')}

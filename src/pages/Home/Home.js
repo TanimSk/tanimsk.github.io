@@ -35,10 +35,11 @@ export default function Home() {
 
 
                     <div className={styles.link_container}>
+                        <Button onClick={() => window.open(resume, '_blank')} text="Grab my resume" style={{ width: '13rem', marginLeft: '0rem', marginBottom: '0rem' }} />
+                        <br />
                         <a target="_blank" href="https://iris-snow-e2b.notion.site/My-Scrapbook-1329cd96cb4080389ba8eac62e59c264" className={styles.life_updates}>
                             My Scrapbook
                         </a>
-                        <Button onClick={() => window.open(resume, '_blank')} text="Resume" />
                     </div>
 
                 </article>

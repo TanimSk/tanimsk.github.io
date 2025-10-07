@@ -15,7 +15,7 @@
 }
 
 .btn:hover {
-    transition: min-width 0.1s;
+    transition: min-width 0.1s, width 0.1s;
     background-color: #ff5c5c;
-    min-width: 6.5rem;
+    min-width: 7rem;    
 }

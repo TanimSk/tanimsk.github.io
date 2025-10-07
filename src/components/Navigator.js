@@ -61,7 +61,7 @@ export default class Navigator extends React.Component {
 
         if (window.screen.width > 500 && !this.isMobile) {
             this.curveTextTrace.map((element) => {
-                element.radius(150);
+                element.radius(168);
             });
             this.isMobile = true;
         }
@@ -79,7 +79,7 @@ export default class Navigator extends React.Component {
                     </div>
 
                     <div className={styles.segment_texts} ref={this.cert}>
-                        Certificates
+                        Achievements
                     </div>
 
                     <div className={styles.segment_texts} ref={this.projects}>
