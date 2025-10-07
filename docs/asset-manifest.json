@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1430c139.css",
-    "main.js": "/static/js/main.30e2d1b1.js",
+    "main.css": "/static/css/main.d720900f.css",
+    "main.js": "/static/js/main.50a4080c.js",
     "static/media/cuet-techathon.png": "/static/media/cuet-techathon.cd3d6b082135f1ccc7ad.png",
     "static/media/wro.png": "/static/media/wro.f1d8d4e1d7cdbd18c208.png",
     "static/media/phitron.png": "/static/media/phitron.35caf0e51c3ae8c715f6.png",
@@ -27,11 +27,11 @@
     "static/media/devops.png": "/static/media/devops.e839e90af01a465369ac.png",
     "static/media/git.png": "/static/media/git.76302f2e4aa232cfaeec.png",
     "index.html": "/index.html",
-    "main.1430c139.css.map": "/static/css/main.1430c139.css.map",
-    "main.30e2d1b1.js.map": "/static/js/main.30e2d1b1.js.map"
+    "main.d720900f.css.map": "/static/css/main.d720900f.css.map",
+    "main.50a4080c.js.map": "/static/js/main.50a4080c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1430c139.css",
-    "static/js/main.30e2d1b1.js"
+    "static/css/main.d720900f.css",
+    "static/js/main.50a4080c.js"
   ]
 }
