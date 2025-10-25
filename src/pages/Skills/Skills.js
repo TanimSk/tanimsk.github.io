@@ -56,7 +56,7 @@ export default function Skills() {
                     <br />
                     <Langs icon={<SiJavascript />} name="JavaScript" comment="Intermediate" />
                     <br />
-                    <Langs icon={<SiCplusplus />} name="C++" comment="Basic" />
+                    <Langs icon={<SiCplusplus />} name="C++" comment="Intermediate" />
                     <br />
                     <Langs icon={<SiHtml5 />} name="HTML5 & CSS3" comment="Intermediate" />
                     <br />

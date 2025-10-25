@@ -29,8 +29,8 @@ export default function Home() {
                     </h1>
                     <p className={styles.body_text}>
                         A programmer with knowledge of Python, JavaScript, HTML, CSS, and C++ and 5+ years of experience.  For web, I use Django (mainly), Flask, FastAPI for the backend, ReactJS for frontend, Postgres for database, and Redis for caching. I have deployed many webapps in AWS vps and equivalent platforms with CI/CD integration. <br />
-                        Also, I have experience on working with raspberry pi, microcontrollers like esp32, esp8266, arduino. I have done home automation projects, websocket programming, communication via radio frequency, integration of tinyML for tiny AI projects etc. <br />
-                        Currently I am learning LLM, SAM and AI agents.
+                        Also, I have experience on working with raspberry pi, microcontrollers like esp32, esp8266, arduino & STM Boards. I have done industrials projects, websocket programming, communication via radio frequency, integration of tinyML for tiny AI projects etc. <br />
+                        Currently I am working with Image processing, Object detection and AI agents for automating workflows.
                     </p>
 
 
