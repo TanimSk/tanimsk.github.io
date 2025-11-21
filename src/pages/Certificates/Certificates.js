@@ -4,6 +4,7 @@ import hackerrank from '../../assets/hackerrank.jpg';
 import phitron from '../../assets/phitron.png';
 import cuet from '../../assets/cuet-techathon.png';
 import wro from '../../assets/wro.png';
+import xylem from '../../assets/xylem_innovation_challenge.png';
 
 const Cards = (props) => {
     return (
@@ -16,20 +17,22 @@ const Cards = (props) => {
 }
 
 export default function Certificates() {
-    const imgLink = [
+    const imgLink = [        
+        wro,
+        phitron,
+        cuet,
+        xylem,
         sololearn,
         hackerrank,
-        wro,
-        phitron,
-        cuet,
     ];
 
-    const links = [
-        'https://www.sololearn.com/Certificate/CT-INIRVBAV/png',
-        'https://www.hackerrank.com/certificates/9c1f25f4a6ea',
+    const links = [        
         wro,
         phitron,
         cuet,
+        xylem,
+        'https://www.sololearn.com/Certificate/CT-INIRVBAV/png',
+        'https://www.hackerrank.com/certificates/9c1f25f4a6ea',
     ];
 
     return (
