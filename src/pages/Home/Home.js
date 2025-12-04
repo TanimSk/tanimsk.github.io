@@ -38,7 +38,7 @@ export default function Home() {
                         <Button onClick={() => window.open(resume, '_blank')} text="Grab my resume" style={{ width: '13rem', marginLeft: '0rem', marginBottom: '0rem' }} />
                         <br />
                         <a target="_blank" href="https://iris-snow-e2b.notion.site/My-Scrapbook-1329cd96cb4080389ba8eac62e59c264" className={styles.life_updates}>
-                            My Scrapbook
+                            My Dairy
                         </a>
                     </div>
 
