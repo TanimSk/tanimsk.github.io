@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.d720900f.css",
-    "main.js": "/static/js/main.157e769c.js",
+    "main.js": "/static/js/main.0684753f.js",
     "static/media/cuet-techathon.png": "/static/media/cuet-techathon.cd3d6b082135f1ccc7ad.png",
+    "static/media/FE-vehicle.png": "/static/media/FE-vehicle.b2a4d7a4b86077f9fc55.png",
     "static/media/xylem_innovation_challenge.png": "/static/media/xylem_innovation_challenge.f95b7081492389462d01.png",
     "static/media/wro.png": "/static/media/wro.f1d8d4e1d7cdbd18c208.png",
     "static/media/phitron.png": "/static/media/phitron.35caf0e51c3ae8c715f6.png",
@@ -30,10 +31,10 @@
     "static/media/git.png": "/static/media/git.76302f2e4aa232cfaeec.png",
     "index.html": "/index.html",
     "main.d720900f.css.map": "/static/css/main.d720900f.css.map",
-    "main.157e769c.js.map": "/static/js/main.157e769c.js.map"
+    "main.0684753f.js.map": "/static/js/main.0684753f.js.map"
   },
   "entrypoints": [
     "static/css/main.d720900f.css",
-    "static/js/main.157e769c.js"
+    "static/js/main.0684753f.js"
   ]
 }
