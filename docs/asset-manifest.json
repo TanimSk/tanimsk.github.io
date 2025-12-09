@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d720900f.css",
-    "main.js": "/static/js/main.522866bb.js",
+    "main.js": "/static/js/main.157e769c.js",
     "static/media/cuet-techathon.png": "/static/media/cuet-techathon.cd3d6b082135f1ccc7ad.png",
     "static/media/xylem_innovation_challenge.png": "/static/media/xylem_innovation_challenge.f95b7081492389462d01.png",
     "static/media/wro.png": "/static/media/wro.f1d8d4e1d7cdbd18c208.png",
@@ -16,6 +16,7 @@
     "static/media/tanim-cv.pdf": "/static/media/tanim-cv.edb0d4407db8deb43796.pdf",
     "static/media/Comfortaa-Light.ttf": "/static/media/Comfortaa-Light.3aa1a958b3fc7c3318c7.ttf",
     "static/media/Comfortaa-Bold.ttf": "/static/media/Comfortaa-Bold.c6eb380b9f8f0920f934.ttf",
+    "static/media/wro-intl.jpg": "/static/media/wro-intl.71671914817850c02210.jpg",
     "static/media/dj_react.png": "/static/media/dj_react.f228b11fc5a626186953.png",
     "static/media/aws.png": "/static/media/aws.9ce7bb2d3308633fa653.png",
     "static/media/langgraph.png": "/static/media/langgraph.77f658df751200e2f676.png",
@@ -29,10 +30,10 @@
     "static/media/git.png": "/static/media/git.76302f2e4aa232cfaeec.png",
     "index.html": "/index.html",
     "main.d720900f.css.map": "/static/css/main.d720900f.css.map",
-    "main.522866bb.js.map": "/static/js/main.522866bb.js.map"
+    "main.157e769c.js.map": "/static/js/main.157e769c.js.map"
   },
   "entrypoints": [
     "static/css/main.d720900f.css",
-    "static/js/main.522866bb.js"
+    "static/js/main.157e769c.js"
   ]
 }
