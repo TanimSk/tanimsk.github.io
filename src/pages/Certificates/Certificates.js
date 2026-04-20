@@ -7,6 +7,7 @@ import wro from '../../assets/wro.png';
 import wroTeam from '../../assets/wro_sg_team_photo.jpeg';
 import wroIntl from '../../assets/wro-intl.jpg';
 import xylem from '../../assets/xylem_innovation_challenge.png';
+import bracHackathon from '../../assets/brac_ai_hackathon.webp';
 
 
 
@@ -24,12 +25,13 @@ export default function Certificates() {
     const imgLink = [
         wroTeam,
         wroIntl,
-        wro,        
+        wro,
         phitron,
         cuet,
         xylem,
         sololearn,
         hackerrank,
+        bracHackathon,
     ];
 
     const links = [
@@ -41,13 +43,14 @@ export default function Certificates() {
         xylem,
         'https://www.sololearn.com/Certificate/CT-INIRVBAV/png',
         'https://www.hackerrank.com/certificates/9c1f25f4a6ea',
+        bracHackathon,
     ];
 
     return (
         <div className={styles.container}>
             {
                 imgLink.map((src, index) =>
-                    <Cards img_src={src} link={links[index]} key={index}/>
+                    <Cards img_src={src} link={links[index]} key={index} />
                 )
             }
         </div>

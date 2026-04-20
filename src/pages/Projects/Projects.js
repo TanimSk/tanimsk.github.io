@@ -1,9 +1,9 @@
 import styles from "./Projects.module.css";
 import rterminal from '../../assets/rterminal.png';
 import p2a from '../../assets/p2a.png';
-import djr from '../../assets/dj_react.png'
-import wroFE from '../../assets/FE-vehicle.png'
-import raPhy from '../../assets/raphy.png'
+import djr from '../../assets/dj_react.png';
+import wroFE from '../../assets/FE-vehicle.png';
+import raPhy from '../../assets/raphy.png';
 
 const Cards = (props) => {
     return (
