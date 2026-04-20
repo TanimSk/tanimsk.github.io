@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d720900f.css",
-    "main.js": "/static/js/main.cb600eaa.js",
+    "main.js": "/static/js/main.dd6e5c4f.js",
     "static/media/cuet-techathon.png": "/static/media/cuet-techathon.cd3d6b082135f1ccc7ad.png",
     "static/media/raphy.png": "/static/media/raphy.e04da9e4a6fdaa7d8da4.png",
     "static/media/wro_sg_team_photo.jpeg": "/static/media/wro_sg_team_photo.4bc27606af804472114a.jpeg",
@@ -11,6 +11,7 @@
     "static/media/p2a.png": "/static/media/p2a.b88bd36c6c8381b5e496.png",
     "static/media/rterminal.png": "/static/media/rterminal.321e2c97cd5aa0a9de3c.png",
     "static/media/art.png": "/static/media/art.23efad9c935eefb0d417.png",
+    "static/media/brac_ai_hackathon.webp": "/static/media/brac_ai_hackathon.284af23f276bdfa6de36.webp",
     "static/media/img.jpg": "/static/media/img.89aadadfb0c4620690cd.jpg",
     "static/media/FE-vehicle.png": "/static/media/FE-vehicle.99acb0174855c7f5c2ad.png",
     "static/media/Freehand-Regular.ttf": "/static/media/Freehand-Regular.7f8f0eadd6e1dca7d4ab.ttf",
@@ -33,10 +34,10 @@
     "static/media/git.png": "/static/media/git.76302f2e4aa232cfaeec.png",
     "index.html": "/index.html",
     "main.d720900f.css.map": "/static/css/main.d720900f.css.map",
-    "main.cb600eaa.js.map": "/static/js/main.cb600eaa.js.map"
+    "main.dd6e5c4f.js.map": "/static/js/main.dd6e5c4f.js.map"
   },
   "entrypoints": [
     "static/css/main.d720900f.css",
-    "static/js/main.cb600eaa.js"
+    "static/js/main.dd6e5c4f.js"
   ]
 }
