@@ -4,8 +4,11 @@ import hackerrank from '../../assets/hackerrank.jpg';
 import phitron from '../../assets/phitron.png';
 import cuet from '../../assets/cuet-techathon.png';
 import wro from '../../assets/wro.png';
+import wroTeam from '../../assets/wro_sg_team_photo.jpeg';
 import wroIntl from '../../assets/wro-intl.jpg';
 import xylem from '../../assets/xylem_innovation_challenge.png';
+
+
 
 const Cards = (props) => {
     return (
@@ -18,7 +21,8 @@ const Cards = (props) => {
 }
 
 export default function Certificates() {
-    const imgLink = [        
+    const imgLink = [
+        wroTeam,
         wroIntl,
         wro,        
         phitron,
@@ -29,6 +33,7 @@ export default function Certificates() {
     ];
 
     const links = [
+        wroTeam,
         wroIntl,
         wro,
         phitron,
