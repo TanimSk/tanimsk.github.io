@@ -24,7 +24,7 @@ jobs:
           npm ci
           npm run build
           rm -rf ./node_modules
-          echo "www.tanimsk.me" > docs/CNAME
+          # echo "www.tanimsk.me" > docs/CNAME
 
       - name: Commit and push changes
         run: |
